@@ -1,0 +1,22 @@
+{
+  "name": "github-graphql",
+  "version": "1.0.0",
+  "main": "./src/server/index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "babel-watch src/server/index.js",
+    "build": "babel src/server/index.js --out-dir dist"
+  },
+  "dependencies": {
+    "@babel/cli": "^7.8.3",
+    "@babel/core": "^7.8.3",
+    "@babel/polyfill": "^7.8.3",
+    "@babel/preset-env": "^7.8.3",
+    "babel-plugin-module-resolver": "^4.0.0",
+    "cross-fetch": "^3.0.4",
+    "dotenv": "^8.2.0"
+  },
+  "devDependencies": {
+    "babel-watch": "^7.0.0"
+  }
+}
